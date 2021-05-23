@@ -35,7 +35,7 @@ class _ToDoAppState extends State<ToDoApp> {
           fontFamily: 'Lato',
           splashColor: Colors.white.withOpacity(0.5),
         ),
-        onGenerateTitle: (context) => 'eS NRE',
+        onGenerateTitle: (context) => 'Etiqa Mobile App Developer Assestment',
         routerDelegate: _router.delegate(),
         routeInformationParser: _router.defaultRouteParser(),
         builder: (context, router) {
