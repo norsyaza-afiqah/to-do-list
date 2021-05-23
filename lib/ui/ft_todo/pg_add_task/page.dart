@@ -24,6 +24,10 @@ class AddTaskPage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.yellow[800],
           brightness: Brightness.dark,
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back, color: Colors.black),
+            onPressed: () => context.router.pop(),
+          ),
           title: Text(
             'Add new To-Do List',
             style: TextStyle(
@@ -201,6 +205,7 @@ class _SubmitButton extends StatelessWidget {
         left: 0.0,
         child: Container(
           width: MediaQuery.of(context).size.width,
+          height: 60,
           color: Colors.black,
           child: MaterialButton(
             child: Text(
