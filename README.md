@@ -1,6 +1,6 @@
 # norsyaza_etiqa_assestment
 
-A new Flutter application.
+Here is the link to for the web version https://to-do-list-3f454.web.app/#/to-do-list-page
 
 ## Getting Started
 
